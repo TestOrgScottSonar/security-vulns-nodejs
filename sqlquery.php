@@ -31,7 +31,9 @@ class Controller
 
         $userId = $request->get('name');
         $item = $request->get('item');
-        #$sql = "SELECT username FROM user WHERE id='$item'";
+        $sql = "SELECT username FROM user WHERE id='$item'";
+        $statement = $this->connection->prepare($sql);
+        $statement->execute();
         return $this->json(['email' => $username]);
     }
 }
