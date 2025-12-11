@@ -6,6 +6,7 @@ class Controller
 {
     /**
      * @var \Doctrine\DBAL\Connection
+     * another test
      */
     protected $connection;
 
