@@ -30,7 +30,8 @@ class Controller
         $username = $statement->fetchColumn();
 
         $userId = $request->get('name');
-        #$sql = "SELECT username FROM user WHERE id='$userId'";
+        $item = $request->get('item');
+        #$sql = "SELECT username FROM user WHERE id='$item'";
         return $this->json(['email' => $username]);
     }
 }
