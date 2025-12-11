@@ -28,6 +28,9 @@ class Controller
         $statement = $this->connection->prepare($sql);
         $statement->execute();
         $username = $statement->fetchColumn();
+
+        $userId = $request->get('name');
+        #$sql = "SELECT username FROM user WHERE id='$userId'";
         return $this->json(['email' => $username]);
     }
 }
