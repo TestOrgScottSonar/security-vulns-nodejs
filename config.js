@@ -22,6 +22,8 @@ var config_docker = {
     }
 }
 
+var radDog5 = 2;
+
 // Select correct config
 var config = null;
 
