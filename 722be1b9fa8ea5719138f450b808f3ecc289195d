@@ -1,0 +1,37 @@
+fizzbuzz.js
+  c06c8bdfeb5cd39b 8-9
+  d79af1dbaedb0cbc 7,10-12,15-17,24-30,32-33,38-88,92-93
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.0.40",
+  "base_commit_sha": "722be1b9fa8ea5719138f450b808f3ecc289195d",
+  "prompts": {
+    "c06c8bdfeb5cd39b": {
+      "agent_id": {
+        "tool": "Cline",
+        "id": "1769772811387",
+        "model": "claude-code"
+      },
+      "human_author": "Scott Bell <scott.bell@sonarsource.com>",
+      "messages": [],
+      "total_additions": 2,
+      "total_deletions": 0,
+      "accepted_lines": 2,
+      "overriden_lines": 0
+    },
+    "d79af1dbaedb0cbc": {
+      "agent_id": {
+        "tool": "Cline",
+        "id": "test-123",
+        "model": "claude-code"
+      },
+      "human_author": "Scott Bell <scott.bell@sonarsource.com>",
+      "messages": [],
+      "total_additions": 70,
+      "total_deletions": 4,
+      "accepted_lines": 69,
+      "overriden_lines": 0
+    }
+  }
+}
