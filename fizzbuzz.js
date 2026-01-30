@@ -5,7 +5,8 @@
  * Prints numbers from 1 to 100, but for multiples of 3 prints "Fizz",
  * for multiples of 5 prints "Buzz", and for multiples of both prints "FizzBuzz".
  * 
- * Now supports extended functionality including statistics and custom divisors!
+ * Now supports extended functionality including statistics, custom divisors, and more!
+ * Testing the updated hooks with explicit PATH configuration for cross-IDE compatibility.
  * 
  * @param {number} n - The upper limit for FizzBuzz (default: 100)
  * @param {boolean} returnArray - If true, returns results as array instead of logging
@@ -73,6 +74,7 @@ function fizzbuzzbazz(n = 100, returnArray = false) {
 
 /**
  * Get statistics about FizzBuzz results
+ * I added some of this
  * @param {number} n - The upper limit
  * @returns {Object} Statistics object with counts
  */

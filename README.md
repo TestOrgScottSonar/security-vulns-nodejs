@@ -58,7 +58,7 @@ Step 3 : ADD init.sql /docker-entrypoint-initdb.d/
 
 ## Running
 
-Once docker compose was finished, we can open a browser and type the URL: `127.0.0.1:3000` (or the IP where you deployed the project):
+Once docker compose was finished, we can open a browser and type the URL: `127.0.0.1:3000` (or the IP where you deployed the project): Great job
 
 ![Login screen](https://raw.githubusercontent.com/cr0hn/vulnerable-node/master/images/login.jpg)
 
