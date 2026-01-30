@@ -1,4 +1,5 @@
 // This file contains dummy information data
+// I added this myself
 
 var dummy_info = {
   // Customer module configs

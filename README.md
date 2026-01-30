@@ -101,6 +101,12 @@ I took ideas and how to explode it in NodeJS using these references:
 - https://blog.risingstack.com/node-js-security-checklist/
 - https://github.com/substack/safe-regex
 
+# Other Files
+
+## fizzbuzz.js
+
+A standalone FizzBuzz implementation file that doesn't affect the main application. This is a simple example file that can be run independently with `node fizzbuzz.js`.
+
 # License
 
 This project is released under license BSD.
