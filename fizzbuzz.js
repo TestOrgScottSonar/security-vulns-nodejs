@@ -79,13 +79,23 @@ function fizzbuzzbazz(n = 100, returnArray = false) {
 function getFizzBuzzStats(n = 100) {
     const results = fizzbuzz(n, true);
     
-    return {
+    const stats = {
         total: results.length,
         fizz: results.filter(r => r === 'Fizz').length,
         buzz: results.filter(r => r === 'Buzz').length,
         fizzbuzz: results.filter(r => r === 'FizzBuzz').length,
         numbers: results.filter(r => typeof r === 'number').length
     };
+    
+    // Calculate percentages
+    stats.percentages = {
+        fizz: ((stats.fizz / stats.total) * 100).toFixed(2) + '%',
+        buzz: ((stats.buzz / stats.total) * 100).toFixed(2) + '%',
+        fizzbuzz: ((stats.fizzbuzz / stats.total) * 100).toFixed(2) + '%',
+        numbers: ((stats.numbers / stats.total) * 100).toFixed(2) + '%'
+    };
+    
+    return stats;
 }
 
 module.exports = fizzbuzz;
