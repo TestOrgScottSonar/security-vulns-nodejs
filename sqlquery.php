@@ -25,6 +25,7 @@ class Controller
         $userId = $request->get('name');
         #$sql = "SELECT username FROM user WHERE id='$userId'";
         $sql = "SELECT username FROM user";
+        $sql = "SELECT username FROM user WHERE id='$userId'";
         $statement = $this->connection->prepare($sql);
         $statement->execute();
         $username = $statement->fetchColumn();
